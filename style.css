@@ -1,0 +1,214 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+/*index section*/
+.Index{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/home-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: 20px;
+    margin-top: -2%;
+
+ 
+  
+}
+
+header{
+    width: 100%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    padding-left: 30px;
+    padding-top: 9%;
+  
+}
+
+.menu{
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu:hover{
+    color: chartreuse;
+}
+
+.mid-text{
+    color: white;
+    margin-left: 19%;
+    margin-top:4%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    width: 80%;
+}
+
+.quote-text{
+    color: gold;
+    margin-left: 55%;
+
+}
+
+
+/* about us section*/
+.about-us{
+
+
+height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/about-us-bacground-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.page-title{
+    color:rgb(208, 255, 0);
+    margin-left: 25%;
+    padding-top:3%;
+}
+
+.our-info{
+    width: 57%;
+    height: 70vh;
+}
+.our-info p{
+    color: white;
+    font-size: 30px;
+    padding-top: 10%;
+    padding-left: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.our-info h4{
+    color: gold;
+    padding-left: 20%;
+    padding-top: 4%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-us{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/contact-us-bg.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.info{
+    height: 80vh;
+    width: 85%;
+   
+}
+
+.fore-info  h3{
+    color:purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 53%;
+padding-top: 5%;
+   
+}
+
+.fore-info  h1{
+    color:rgb(35, 54, 3);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 48%;
+    padding-top: 2%;
+}
+.fore-info  p{
+    color:rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 27%;
+    padding-top:2%;
+}
+
+.Address{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.fa-map-marker{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-bottom: 2%;
+    color: rgb(210, 30, 30);
+}
+.Address h1{
+    color: rgb(210, 36, 30);
+}
+.Phone{
+    margin-left: 50%;
+    margin-top: -20%;
+}
+.fa-phone{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-bottom: 2%; 
+    color: rgb(8, 68, 199); 
+}
+.Phone h1{
+    color: rgb(38, 10, 202);
+}
+.social-media{
+    font-size: 30px;
+    padding-left: 90%;
+    margin-top: -10%;
+}
+
+/* our services*/
+
+.our-services-page-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100%;
+    padding-left: 42%;
+    padding-top: 1%;
+     background-image: url(images/our-services-background.jpg);
+     background-position: center;
+    background-size: cover; 
+}
+
+.into-paragraph{
+  margin-top: -44%;
+  font-size: 22px;
+  padding-left: 15%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hair-dressing-image{
+    margin-top: 4%;
+    margin-left: 11%;
+    height: 450px;
+    border-radius: 20px;
+}
+.manicure-image{
+    margin-top: -33%;
+    margin-left: 37%;
+    height: 450px; 
+    position: absolute;
+    border-radius: 20px;
+}
+
+.pedicure-image{
+    margin-top: -33%;
+    margin-left: 70%;
+    height: 450px; 
+    position: absolute; 
+    border-radius: 20px;
+}
+
